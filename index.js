@@ -4,7 +4,7 @@
 var BasePlugin = require('ember-cli-deploy-plugin');
 var Promise = require('rsvp').Promise;
 var SilentError = require('silent-error');
-var Rsync = require('rsyncwrapper').rsync;
+var Rsync = require('rsyncwrapper');
 
 module.exports = {
     name: 'ember-cli-deploy-rsync',
